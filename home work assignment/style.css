@@ -1,0 +1,424 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    padding: 15px 20px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link ul {
+    list-style: none;
+}
+
+.link ul li {
+    display: inline-block;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+.bgimg {
+    background-image: url(https://www.w3schools.com/w3images/mac.jpg);
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+}
+
+.imgcontent {
+    position: absolute;
+    top: 0;
+}
+
+.imgheading {
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-top: 33%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.imgkheading {
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 18px !important;
+    font-family: "Raleway", sans-serif;
+}
+
+.btn {
+    height: 50px;
+    width: 220px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: gray;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.imgicon {
+    position: absolute;
+    top: 0;
+    margin-top: 45%;
+    margin-left: 50px;
+    color: #CCCCCC;
+}
+
+.centerheading {
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 10%;
+}
+
+.para {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px !important;
+    font-family: "Raleway", sans-serif;
+}
+
+.columnflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.paragraph {
+    font-size: 18px !important;
+    font-family: "Raleway", sans-serif;
+    margin-top: 28px;
+    margin-bottom: 27px;
+}
+
+.another {
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    width: 300px;
+
+}
+
+.flex {
+    text-align: center;
+
+}
+
+.backgroundcolor {
+    background-color: #CCCCCC;
+    height: 75vh;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bgheading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 9%;
+}
+
+.padding {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 2;
+
+}
+
+.btnn {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.btnn:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.img {
+    margin-top: 7%;
+}
+
+.card {
+    background-color: white;
+    height: 65vh;
+    width: 280px;
+
+    box-shadow: 0px 4px 8px 0px blue;
+    margin-top: 60px;
+}
+
+.img2 {
+    height: 170px;
+    width: 280px;
+
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div {
+    font-family: "Raleway", sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.opacity {
+    opacity: 0.60;
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.main {
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.texh {
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+
+}
+
+.texh:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+    border: none;
+
+}
+
+.bodyproject {
+    background-color: #616161;
+    height: 200px;
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.partner {
+    font-size: 36px !important;
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    margin-top: 40px;
+    color: white;
+}
+
+.laptop {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: 7%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skills {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 5%;
+}
+
+.rale {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8;
+    font-size: 15px;
+    width: 500px;
+}
+
+.photography {
+    letter-spacing: 4px;
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.bg {
+    background-color: gray;
+    height: 30px;
+    width: 500px;
+}
+
+.skillwork {
+    margin-top: 5%;
+}
+
+.bgg {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 450px;
+}
+
+.anotherskill {
+    margin-top: 5%;
+}
+
+.percent {
+    text-align: center;
+    padding-top: 5px;
+}
+.pricing{
+    background-color: #616161;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+.pricingheading{
+    background-color: black;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.pricing1{
+    margin-top: 30%;
+    border: 1px solid gray;
+}
+.list{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.pricingbutton{
+    background-color: #CCCCCC;
+    height: 115px;
+}
+.up{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 110px;
+    margin-left: 145px;
+    margin-top: 40px;
+    border: none;
+}
+.up:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.bike{
+    background-color: #CCCCCC;
+    height: 100vh;
+    width: 100%;
+}
+.imput{
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    border: 1px solid gray;
+    margin-left: 30px;
+    margin-top: 7%;
+    padding-left: 20px;
+}
+.imput1{
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    border: 1px solid gray;
+    margin-left: 30px;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+.formbut{
+    background-color: black;
+    height: 40px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+}
+.imgnope{
+    width: 100%;
+    height: 90vh;
+}
+.footer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    margin-top: 40px;
+}
+.siddiqui{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
